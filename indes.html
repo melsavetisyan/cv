@@ -1,54 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <main>
-        <div class="left">
-            <div class="info">
-                <div class="container">
-                    <div class="name">
-                        <h1>Mels Avetisyan  </h1>
-                    </div>
-                    <div class="job">
-                        <h2>Programmer</h2>
-                    </div>
-                    <div class="contacts">
-                        <ul>
-                            <li class="e-mail">E-mail </li>
-                            <li class="phone">+374-97-51-21-38</li>
-                            <li class="location">Armeina</li>
-                            <li class="linkedin">Linkedin</li>
-                            <li class="github">GitHub</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="edu-scills">
-                <div class="container">
-                    <div class="edu">
-                        <h2>Education</h2>
-                    </div>
-                    <div class="scills">
-                        <h2>Skills</h2>
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>HTML/CSS</li>
-                            <li>React</li>
-                            <li>Node.js</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="rigth"></div>
-    </main>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mels CV</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="img/avatar.jpg" class="avatar" />
 
-    <script src="script.js"></script>
-</body>
+        <div class="info-text">
+          <h1>Mels Avetisyan</h1>
+          <h2>Frontend Develooper</h2>
+        </div>
+      </div>
+        <div class="card bg-green">
+            <h2>Scills</h2>
+            <ol class="list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React JS</li>
+                <li>Node JS</li>
+            </ol>
+        </div>
+        <div class="card bg-yellow">
+        <h2>Contacts</h2>
+        <ol class="list">
+          <li>+374-97-51-21-38</li>
+          <li><a href=""> melsavetisyann@gmail.com</a></li>
+          <li><a target="_blank" href="https://github.com/melsavetisyan">GitHub</a></li>
+          <li><a href="">LinkedIn</a></li>
+        </ol>
+      </div>
+    </div>  
+  </body>
 </html>
