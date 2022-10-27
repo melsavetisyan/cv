@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+.left{
+    width: 30%;
+}
+main{
+    display: flex;
+
+}
+.rigth{
+    width: 70%;
+}
+.container{
+    width: 95%;
+}
+.edu-scills, .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
